@@ -21,7 +21,7 @@ import nl.tudelft.jpacman.ui.Action;
 import nl.tudelft.jpacman.ui.PacManUI;
 import nl.tudelft.jpacman.ui.PacManUiBuilder;
 
-/**
+/***
  * Creates and launches the JPacMan UI.
  * 
  * @author Jeroen Roosen
