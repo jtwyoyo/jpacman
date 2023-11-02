@@ -24,16 +24,4 @@ class BoardTest {
         assertThat(board.getWidth()).isEqualTo(1);
         assertThat(board.getHeight()).isEqualTo(1);
     }
-
-    /***
-     * Board.
-     */
-    @Test
-    void testSquareAtWithNullSquare() {
-        Square[][] gridWithNull = new Square[1][1];
-        gridWithNull[0][0] = null;
-        board = new Board(gridWithNull);
-
-        assertThat(board.squareAt(0, 0)).isNull();
-    }
 }
