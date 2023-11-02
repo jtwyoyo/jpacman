@@ -7,6 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 /***
  * Test suite for the {@link Board} class.
+ * @params arguments for the method.
  */
 class BoardTest {
 

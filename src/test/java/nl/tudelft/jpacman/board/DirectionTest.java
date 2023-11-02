@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * A very simple (and not particularly useful)
  * test class to have a starting point where to put tests.
- *
+ * @params This is the arguments for the method.
  * @author Arie van Deursen
  */
 public class DirectionTest {
