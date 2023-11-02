@@ -4,19 +4,19 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-/**
+/***
  * Direction.
  */
 public class DirectionTest {
-    /**
-     * Do we get the correct delta when moving north?
+    /***
+     * Direction.
      */
     @Test
     void testNorth() {
         Direction north = Direction.valueOf("NORTH");
         assertThat(north.getDeltaY()).isEqualTo(-1);
     }
-    /**
+    /***
      * Direction.
      */
     @Test
@@ -24,7 +24,7 @@ public class DirectionTest {
         Direction north = Direction.valueOf("SOUTH");
         assertThat(north.getDeltaY()).isEqualTo(1);
     }
-    /**
+    /***
      * Direction.
      */
     @Test
@@ -32,7 +32,7 @@ public class DirectionTest {
         Direction north = Direction.valueOf("EAST");
         assertThat(north.getDeltaX()).isEqualTo(1);
     }
-    /**
+    /***
      * Direction.
      */
     @Test

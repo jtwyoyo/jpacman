@@ -12,7 +12,7 @@ class BoardTest {
 
     private Board board;
 
-    /**
+    /***
      * Board.
      */
     @Test
@@ -25,7 +25,7 @@ class BoardTest {
         assertThat(board.getHeight()).isEqualTo(1);
     }
 
-    /**
+    /***
      * Board.
      */
     @Test
