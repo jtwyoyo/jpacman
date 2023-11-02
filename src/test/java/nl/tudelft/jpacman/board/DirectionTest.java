@@ -5,10 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 
 /**
- * A very simple (and not particularly useful)
- * test class to have a starting point where to put tests.
- * @params This is the arguments for the method.
- * @author Arie van Deursen
+ * Direction.
  */
 public class DirectionTest {
     /**
@@ -19,16 +16,25 @@ public class DirectionTest {
         Direction north = Direction.valueOf("NORTH");
         assertThat(north.getDeltaY()).isEqualTo(-1);
     }
+    /**
+     * Direction.
+     */
     @Test
     void testSouth() {
         Direction north = Direction.valueOf("SOUTH");
         assertThat(north.getDeltaY()).isEqualTo(1);
     }
+    /**
+     * Direction.
+     */
     @Test
     void testEast() {
         Direction north = Direction.valueOf("EAST");
         assertThat(north.getDeltaX()).isEqualTo(1);
     }
+    /**
+     * Direction.
+     */
     @Test
     void testWest() {
         Direction north = Direction.valueOf("WEST");

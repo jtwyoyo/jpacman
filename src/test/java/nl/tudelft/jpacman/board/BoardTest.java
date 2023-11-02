@@ -6,13 +6,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 /***
- * Test suite for the {@link Board} class.
- * @params arguments for the method.
+ * Board.
  */
 class BoardTest {
 
     private Board board;
 
+    /**
+     * Board.
+     */
     @Test
     void testBoardConstruction() {
         Square[][] grid = new Square[1][1];
@@ -23,6 +25,9 @@ class BoardTest {
         assertThat(board.getHeight()).isEqualTo(1);
     }
 
+    /**
+     * Board.
+     */
     @Test
     void testSquareAtWithNullSquare() {
         Square[][] gridWithNull = new Square[1][1];
